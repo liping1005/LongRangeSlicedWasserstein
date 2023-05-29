@@ -62,6 +62,12 @@ This is the project page for "Long Range Constraints for Neural Texture Synthesi
 <img src="https://github.com/liping1005/LongRangeSlicedWasserstein/assets/70219522/2222f201-983a-4938-ae0b-56e27964a1f0" width="180" height="180">
 <img src="https://github.com/liping1005/LongRangeSlicedWasserstein/assets/70219522/f25b3de7-da89-4d7d-8b16-9456aeb1b07b" width="180" height="180">
 <img src="scale_1/result_24.jpg" width="180" height="180">
+  
+<img src="refs/img_34.jpg" width="180" height="180">
+<img src="heitz/result_34.jpg" width="180" height="180">
+<img src="spectrum/result_34.jpg" width="180" height="180">
+ <img src="scale_0/result_34.jpg" width="180" height="180">
+<img src="scale_1/result_34.jpg" width="180" height="180">
 
 <img src="https://github.com/liping1005/LongRangeSlicedWasserstein/assets/70219522/6c1a87e1-b4d9-4601-a95c-10a683188d1e" width="180" height="180">
 <img src="https://github.com/liping1005/LongRangeSlicedWasserstein/assets/70219522/37e38c9c-26f5-4a04-aef2-a26be3ea1710" width="180" height="180">
@@ -77,10 +83,6 @@ The texures above were mostly periodic or pseudoperiodic, so let's test our algo
 <img src="gonthier/result_4.jpg" width="200" height="200">
 <img src="scale_1/result_4.jpg" width="200" height="200">
     
-<img src="refs/img_11.jpg" width="200" height="200">
-<img src="heitz/result_11.jpg" width="200" height="200">
-<img src="gonthier/result_11.jpg" width="200" height="200">
-<img src="scale_1/result_11.jpg" width="200" height="200">
    
 <img src="refs/img_22.jpg" width="200" height="200">
 <img src="heitz/result_22.jpg" width="200" height="200">
@@ -101,11 +103,6 @@ The texures above were mostly periodic or pseudoperiodic, so let's test our algo
 <img src="heitz/result_30.jpg" width="200" height="200">
 <img src="gonthier/result_30.jpg" width="200" height="200">
 <img src="scale_1/result_30.jpg" width="200" height="200">
-    
-<img src="refs/img_34.jpg" width="200" height="200">
-<img src="heitz/result_34.jpg" width="200" height="200">
-<img src="gonthier/result_34.jpg" width="200" height="200">
-<img src="scale_1/result_34.jpg" width="200" height="200">
     
 <img src="refs/img_37.jpg" width="200" height="200">
 <img src="heitz/result_37.jpg" width="200" height="200">
