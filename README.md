@@ -57,15 +57,9 @@ This is the project page for "Long Range Constraints for Neural Texture Synthesi
  <img src="scale_0/result_34.jpg"  width="200" height="200">
  
 
-The texures above were mostly periodic or pseudoperiodic, so let's test our algorithm on some textures that have less stationary components. For our comparison, we compare our alogorithm with K = 1 against Heitz et. al. and with Gonthier et. al. **Left:** Reference, **Second Column:** Original SW Synthesis, **Third Column:** Gonthier, **Right:** Our Algorithm (K=1).
+The texures above were mostly periodic or pseudoperiodic, so let's test our algorithm on some textures have diffent long range constraints/less stationary features. For our comparison, we compare our alogorithm with K = 1 against Heitz et. al. and with Gonthier et. al. **Left:** Reference, **Second Column:** Original SW Synthesis, **Third Column:** Gonthier, **Right:** Our Algorithm (K=1).
 
- <p align=center>
-<img src="refs/img_4.jpg" width="200" height="200">
-<img src="heitz/result_4.jpg" width="200" height="200">
-<img src="gonthier/result_4.jpg" width="200" height="200">
-<img src="scale_1/result_4.jpg" width="200" height="200">
-    
-   
+<p align=center>   
 <img src="refs/img_22.jpg" width="200" height="200">
 <img src="heitz/result_22.jpg" width="200" height="200">
 <img src="gonthier/result_22.jpg" width="200" height="200">
