@@ -55,11 +55,7 @@ This is the project page for "Long Range Constraints for Neural Texture Synthesi
 <img src="heitz/result_34.jpg" width="200" height="200">
 <img src="spectrum/result_34.jpg"  width="200" height="200">
  <img src="scale_0/result_34.jpg"  width="200" height="200">
-  
-<img src="refs/img_34.jpg"  width="200" height="200">
-<img src="heitz/result_34.jpg" width="200" height="200">
-<img src="spectrum/result_34.jpg"  width="200" height="200">
- <img src="scale_0/result_34.jpg"  width="200" height="200">
+ 
 
 The texures above were mostly periodic or pseudoperiodic, so let's test our algorithm on some textures that have less stationary components. For our comparison, we compare our alogorithm with K = 1 against Heitz et. al. and with Gonthier et. al. **Left:** Reference, **Second Column:** Original SW Synthesis, **Third Column:** Gonthier, **Right:** Our Algorithm (K=1).
 
