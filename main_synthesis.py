@@ -58,26 +58,20 @@ layers_height = [[]]*num_scales
 layers_width = [[]]*num_scales
 ref_img = ref_img.to(device)
 print('Network Initialized. Synthesis Beginning.')              
-
-time_list = []                    
+                 
 #do synthesis
-for j in range(5):
-  start = time.time()
-  syn_image = gonthier_synthesis(mydict, 
-                                 layers_channels, 
-                                 layers_height,
-                                 layers_width,
-                                 device, 
-                                 ref_img, 
-                                 scales = num_scales, 
-                                 epochs = [20]*num_scales, 
-                                 lr = [1.0]*num_scales)                               
-  end = time.time()
-  time_list.append(end-start)
+syn_image = gonthier_synthesis(mydict, 
+                             layers_channels, 
+                             layers_height,
+                             layers_width,
+                             device, 
+                             ref_img, 
+                             scales = num_scales, 
+                             epochs = [20]*num_scales, 
+                             lr = [1.0]*num_scales)                               
   
 #detach and hist match
 out = np.float64(syn_image.detach().cpu().permute(1,2,0).numpy())
 ref = np.float64(ref_img.detach().cpu().permute(1,2,0). numpy())
 plt.imsave(output_path, out)
 print('Synthesis Complete. Image saved in folder')
-print('Run Time for Algorithm:', time_list)
